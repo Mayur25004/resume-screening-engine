@@ -32,7 +32,7 @@ resume-screening-engine/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/Mayur25004/resume-screening-engine.git
 cd resume-screening-engine
 ```
 
@@ -57,8 +57,6 @@ spring.datasource.url=jdbc:mysql://localhost:3306/resume_screening
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 ```
-
-> Do not commit real passwords or JWT secrets to GitHub.
 
 ### 3. Run the Backend
 
@@ -86,15 +84,15 @@ Frontend: `http://localhost:5173`
 ### Admin
 
 ```text
-Email: <DEMO_ADMIN_EMAIL>
-Password: <DEMO_ADMIN_PASSWORD>
+Email: testadmin@gmail.com
+Password: Admin@123
 ```
 
 ### Candidate
 
 ```text
-Email: <DEMO_CANDIDATE_EMAIL>
-Password: <DEMO_CANDIDATE_PASSWORD>
+Email: mayur2@gmail.com
+Password: Mayur@123
 ```
 
 If demo credentials are not publicly provided, create accounts locally and use the appropriate roles.
