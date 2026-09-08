@@ -7,7 +7,7 @@ export default function Table({ data }) {
       return (
         <Empty
           title="No screening results yet"
-          detail="Choose a job and run a screening to see ranked candidates here."
+          detail="Screening results will appear automatically when candidates apply for jobs."
         />
       );
     return (
